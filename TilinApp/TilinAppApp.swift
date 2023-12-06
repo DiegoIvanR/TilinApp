@@ -11,7 +11,7 @@ import SwiftUI
 struct TilinAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            UIelements()
         }
     }
 }

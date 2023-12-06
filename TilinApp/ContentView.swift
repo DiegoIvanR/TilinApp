@@ -6,14 +6,14 @@
 //
 
 import SwiftUI
-
+//tmb se puede crear una instancia de UIelements en content view, y content view en tilinApp
 struct ContentView: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Eso Tili")
+            Text("Eso Tilin")
         }
         .padding()
     }

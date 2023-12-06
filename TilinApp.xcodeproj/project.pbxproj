@@ -14,6 +14,7 @@
 		9B67931B2B1FE0EC00E16177 /* TilinAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B67931A2B1FE0EC00E16177 /* TilinAppTests.swift */; };
 		9B6793252B1FE0EC00E16177 /* TilinAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6793242B1FE0EC00E16177 /* TilinAppUITests.swift */; };
 		9B6793272B1FE0EC00E16177 /* TilinAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6793262B1FE0EC00E16177 /* TilinAppUITestsLaunchTests.swift */; };
+		9BB9E2432B1FEB30001A55B4 /* UIelements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB9E2422B1FEB30001A55B4 /* UIelements.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		9B6793202B1FE0EC00E16177 /* TilinAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TilinAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B6793242B1FE0EC00E16177 /* TilinAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TilinAppUITests.swift; sourceTree = "<group>"; };
 		9B6793262B1FE0EC00E16177 /* TilinAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TilinAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9BB9E2422B1FEB30001A55B4 /* UIelements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIelements.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,8 @@
 			children = (
 				9B6793092B1FE0EA00E16177 /* TilinAppApp.swift */,
 				9B67930B2B1FE0EA00E16177 /* ContentView.swift */,
+				9BB9E2412B1FEA6C001A55B4 /* Modules */,
+				9BB9E23F2B1FEA0E001A55B4 /* Views */,
 				9B67930D2B1FE0EC00E16177 /* Assets.xcassets */,
 				9B67930F2B1FE0EC00E16177 /* Preview Content */,
 			);
@@ -125,6 +129,21 @@
 				9B6793262B1FE0EC00E16177 /* TilinAppUITestsLaunchTests.swift */,
 			);
 			path = TilinAppUITests;
+			sourceTree = "<group>";
+		};
+		9BB9E23F2B1FEA0E001A55B4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9BB9E2422B1FEB30001A55B4 /* UIelements.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9BB9E2412B1FEA6C001A55B4 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BB9E2432B1FEB30001A55B4 /* UIelements.swift in Sources */,
 				9B67930C2B1FE0EA00E16177 /* ContentView.swift in Sources */,
 				9B67930A2B1FE0EA00E16177 /* TilinAppApp.swift in Sources */,
 			);
