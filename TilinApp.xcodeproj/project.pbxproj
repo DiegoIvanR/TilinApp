@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B30E6002B212EA600E83A0F /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B30E5FF2B212EA600E83A0F /* Person.swift */; };
+		9B30E6022B212FA900E83A0F /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B30E6012B212FA900E83A0F /* Project.swift */; };
+		9B30E6042B21303000E83A0F /* SocialMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B30E6032B21303000E83A0F /* SocialMedia.swift */; };
+		9B30E6062B21392700E83A0F /* PersonProfilePicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B30E6052B21392700E83A0F /* PersonProfilePicture.swift */; };
 		9B67930A2B1FE0EA00E16177 /* TilinAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6793092B1FE0EA00E16177 /* TilinAppApp.swift */; };
 		9B67930C2B1FE0EA00E16177 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B67930B2B1FE0EA00E16177 /* ContentView.swift */; };
 		9B67930E2B1FE0EC00E16177 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B67930D2B1FE0EC00E16177 /* Assets.xcassets */; };
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B30E5FF2B212EA600E83A0F /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		9B30E6012B212FA900E83A0F /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		9B30E6032B21303000E83A0F /* SocialMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMedia.swift; sourceTree = "<group>"; };
+		9B30E6052B21392700E83A0F /* PersonProfilePicture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonProfilePicture.swift; sourceTree = "<group>"; };
 		9B6793062B1FE0EA00E16177 /* TilinApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TilinApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B6793092B1FE0EA00E16177 /* TilinAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TilinAppApp.swift; sourceTree = "<group>"; };
 		9B67930B2B1FE0EA00E16177 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,7 +106,7 @@
 			children = (
 				9B6793092B1FE0EA00E16177 /* TilinAppApp.swift */,
 				9B67930B2B1FE0EA00E16177 /* ContentView.swift */,
-				9BB9E2412B1FEA6C001A55B4 /* Modules */,
+				9BB9E2412B1FEA6C001A55B4 /* Models */,
 				9BB9E23F2B1FEA0E001A55B4 /* Views */,
 				9B67930D2B1FE0EC00E16177 /* Assets.xcassets */,
 				9B67930F2B1FE0EC00E16177 /* Preview Content */,
@@ -135,15 +143,19 @@
 			isa = PBXGroup;
 			children = (
 				9BB9E2422B1FEB30001A55B4 /* UIelements.swift */,
+				9B30E6052B21392700E83A0F /* PersonProfilePicture.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		9BB9E2412B1FEA6C001A55B4 /* Modules */ = {
+		9BB9E2412B1FEA6C001A55B4 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				9B30E5FF2B212EA600E83A0F /* Person.swift */,
+				9B30E6012B212FA900E83A0F /* Project.swift */,
+				9B30E6032B21303000E83A0F /* SocialMedia.swift */,
 			);
-			path = Modules;
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +290,10 @@
 			files = (
 				9BB9E2432B1FEB30001A55B4 /* UIelements.swift in Sources */,
 				9B67930C2B1FE0EA00E16177 /* ContentView.swift in Sources */,
+				9B30E6002B212EA600E83A0F /* Person.swift in Sources */,
+				9B30E6042B21303000E83A0F /* SocialMedia.swift in Sources */,
+				9B30E6062B21392700E83A0F /* PersonProfilePicture.swift in Sources */,
+				9B30E6022B212FA900E83A0F /* Project.swift in Sources */,
 				9B67930A2B1FE0EA00E16177 /* TilinAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
