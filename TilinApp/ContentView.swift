@@ -9,13 +9,19 @@ import SwiftUI
 //tmb se puede crear una instancia de UIelements en content view, y content view en tilinApp
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Eso Tilin")
+        TabView {
+            ProfileNavigation(profile: Person.myProfile)
+                .tag("profile") //todos los tabviews necesitan un tag
+                .tabItem {
+                    Label("My Profile", systemImage: "person.circle")
+                }
+            MySocialMedia(socialMedia: SocialMedia.mySocialMedia)
+                .tag("socialMedia")
+                .tabItem {
+                    //shift cmL L, ultima pestaña son los iconos
+                    Label("Social Media", systemImage: "flame.fill")
+                }
         }
-        .padding()
     }
 }
 

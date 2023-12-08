@@ -18,6 +18,10 @@
 		9B67931B2B1FE0EC00E16177 /* TilinAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B67931A2B1FE0EC00E16177 /* TilinAppTests.swift */; };
 		9B6793252B1FE0EC00E16177 /* TilinAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6793242B1FE0EC00E16177 /* TilinAppUITests.swift */; };
 		9B6793272B1FE0EC00E16177 /* TilinAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6793262B1FE0EC00E16177 /* TilinAppUITestsLaunchTests.swift */; };
+		9BA3B9B32B227E000011B865 /* ProfileDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA3B9B22B227E000011B865 /* ProfileDescription.swift */; };
+		9BA3B9B52B228A950011B865 /* ProfileNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA3B9B42B228A950011B865 /* ProfileNavigation.swift */; };
+		9BA3B9B72B228BED0011B865 /* ProjectDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA3B9B62B228BED0011B865 /* ProjectDetailView.swift */; };
+		9BA3B9B92B2292E20011B865 /* MySocialMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA3B9B82B2292E20011B865 /* MySocialMedia.swift */; };
 		9BB9E2432B1FEB30001A55B4 /* UIelements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB9E2422B1FEB30001A55B4 /* UIelements.swift */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +57,10 @@
 		9B6793202B1FE0EC00E16177 /* TilinAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TilinAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B6793242B1FE0EC00E16177 /* TilinAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TilinAppUITests.swift; sourceTree = "<group>"; };
 		9B6793262B1FE0EC00E16177 /* TilinAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TilinAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9BA3B9B22B227E000011B865 /* ProfileDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDescription.swift; sourceTree = "<group>"; };
+		9BA3B9B42B228A950011B865 /* ProfileNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileNavigation.swift; sourceTree = "<group>"; };
+		9BA3B9B62B228BED0011B865 /* ProjectDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetailView.swift; sourceTree = "<group>"; };
+		9BA3B9B82B2292E20011B865 /* MySocialMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySocialMedia.swift; sourceTree = "<group>"; };
 		9BB9E2422B1FEB30001A55B4 /* UIelements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIelements.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -143,7 +151,11 @@
 			isa = PBXGroup;
 			children = (
 				9BB9E2422B1FEB30001A55B4 /* UIelements.swift */,
+				9BA3B9B42B228A950011B865 /* ProfileNavigation.swift */,
+				9BA3B9B62B228BED0011B865 /* ProjectDetailView.swift */,
+				9BA3B9B82B2292E20011B865 /* MySocialMedia.swift */,
 				9B30E6052B21392700E83A0F /* PersonProfilePicture.swift */,
+				9BA3B9B22B227E000011B865 /* ProfileDescription.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -288,11 +300,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BA3B9B32B227E000011B865 /* ProfileDescription.swift in Sources */,
 				9BB9E2432B1FEB30001A55B4 /* UIelements.swift in Sources */,
 				9B67930C2B1FE0EA00E16177 /* ContentView.swift in Sources */,
 				9B30E6002B212EA600E83A0F /* Person.swift in Sources */,
 				9B30E6042B21303000E83A0F /* SocialMedia.swift in Sources */,
 				9B30E6062B21392700E83A0F /* PersonProfilePicture.swift in Sources */,
+				9BA3B9B92B2292E20011B865 /* MySocialMedia.swift in Sources */,
+				9BA3B9B52B228A950011B865 /* ProfileNavigation.swift in Sources */,
+				9BA3B9B72B228BED0011B865 /* ProjectDetailView.swift in Sources */,
 				9B30E6022B212FA900E83A0F /* Project.swift in Sources */,
 				9B67930A2B1FE0EA00E16177 /* TilinAppApp.swift in Sources */,
 			);
@@ -455,6 +471,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TilinApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "John Pork";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -483,6 +500,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TilinApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "John Pork";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

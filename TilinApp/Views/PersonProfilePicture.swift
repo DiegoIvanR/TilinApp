@@ -19,7 +19,7 @@ struct PersonProfilePicture: View {
                 image.image? //el signo de interrogacion es para cuando la creacion de la url falla
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .frame(width: 300)
+                    .frame(width: 150)
                     .clipShape(Circle())
                     .overlay(Material.bar, in: //filtro alrededor de la imagen
                              Circle()
