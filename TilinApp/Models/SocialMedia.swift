@@ -11,11 +11,12 @@ struct SocialMedia: Identifiable {
     let id = UUID().uuidString
     var media: String
     var url: String
+    var iconName: String
 }
 
 extension SocialMedia {
     static let mySocialMedia = [
-        SocialMedia(media: "GitHub", url: "https://github.com/DiegoIvanR"),
-        SocialMedia(media: "Youtube", url: "https://www.youtube.com")
+        SocialMedia(media: "GitHub", url: "https://github.com/DiegoIvanR", iconName: "githubIcon"),
+        SocialMedia(media: "Youtube", url: "https://www.youtube.com", iconName: "youtubeIcon")
     ]
 }

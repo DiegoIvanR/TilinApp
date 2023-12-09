@@ -19,7 +19,7 @@ struct Project: Identifiable {
 
 extension Project {
     static let myProjects = [
-        Project(title: "SwiftUI Course", description: "Nose", rating: 5, photos: []),
+        Project(title: "SwiftUI Course", description: "Nose aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", rating: 5, photos: []),
         Project(title: "battleship", description: "andrey se la rifo", rating: 5, photos: []),
         Project(title: "SwiftUI Course", description: "Nose", rating: 5, photos: []),
     ]

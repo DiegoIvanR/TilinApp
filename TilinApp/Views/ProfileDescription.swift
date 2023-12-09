@@ -14,7 +14,7 @@ struct ProfileDescription: View {
         ScrollView{
             PersonProfilePicture(profilePictureUrl: profile.profilePic,
                                  name: profile.nombre)
-            LeadingAlignedText(text: "Hobbies")
+            LeadingAlignedText(text: "Obamna")
                 .font(.headline)
             //id para hacerlo identifiable
             //flexible grid item: crece o disminuye segun el contenedor, puede tener max y min
@@ -53,6 +53,12 @@ struct ProfileDescription: View {
                 }
             }
             .padding(.horizontal)
+            
+            Divider()
+            LeadingAlignedText(text: "Photos")
+                .font(.headline)
+            PhotosCarousel(photosNames: Person.myProfile.photos)
+                .frame(height:400)
         }
     }
 }

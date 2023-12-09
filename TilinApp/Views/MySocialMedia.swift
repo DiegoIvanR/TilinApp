@@ -14,7 +14,13 @@ struct MySocialMedia: View {
             ForEach(socialMedia) { medium in
                 //el ! es para transformar el opcional en un valor
                 Link(destination: (URL(string: medium.url) ?? URL(string: "www.google.com")!)) {
-                    Text(medium.media)
+                    HStack {
+                        Image(medium.iconName)
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 25)
+                        Text(medium.media)
+                    }
                 }
             }
         }

@@ -21,6 +21,11 @@ struct ContentView: View {
                     //shift cmL L, ultima pestaña son los iconos
                     Label("Social Media", systemImage: "flame.fill")
                 }
+            ProjectsList(projects: Person.myProfile.projects)
+                .tag("projects")
+                .tabItem {
+                    Label("Projects", systemImage: "folder")
+                }
         }
     }
 }
